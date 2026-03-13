@@ -1,5 +1,6 @@
 **Introduction to Fiorano Intergaration Platform**
-![DeploymentTopology](/screenshots/image.png)
+
+![DeploymentTopology](/screenshots/DT.png)
 
 **Pain Points In Adopting Entreprise Intergration**
 **Organizations often face several challenges when implementing enterprise integration solutions:**
@@ -18,6 +19,7 @@
 
 **Benefits of Streamlining Enterprise Intergration with Fiorano**
 **1. Accelerated Time for Development**
+
 ![ATD](/screenshots/ATD.png)
 **2. Ease of Implementation**
 **3. Hybrid Integration**
