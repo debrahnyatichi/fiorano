@@ -21,20 +21,45 @@
 ## **1. Accelerated Time for Development**
 - Fiorano helps you build and deploy systems much faster than traditional methods.
 ![ATD](/screenshots/ATD.png)
-There are **two approaches** to building an integration project: **traditional** and **modern**.
-### Traditional Approach
-Normally, enterprise integration takes a long time because developers have to:
-- Write a lot of code from scratch
-- Manually connect different systems (APIs, databases, apps)
-- Test everything step by step
-### Modern Approach (Fiorano)
-With Fiorano, this process is streamlined and faster because:
-- **Pre-built connectors** — No need to start from zero; many integrations are already available
-- **Low-code tools** — Design integrations visually instead of writing heavy code
-- **Reusable components** — Build once, use many times
-- **Real-time (event-driven) processing** — No waiting for batch jobs; data moves instantly
+# Benefits of Streamlining Enterprise Integration with Fiorano
+## 1. Accelerated Time for Development
+- There are **two approaches** to building an integration project: **traditional** and **modern**.
+### Traditional Approach — Custom Method
+- With the custom method, developers must gather functional requirements and then **build all logic from scratch**. This means individually coding and maintaining every layer of the system, including:
 
-**2. Ease of Implementation**
-**3. Hybrid Integration**
-**4. Operational Efficiency**
-**5. ROI Through Reusability**
+| Layer                                  | What it involves                                                           |
+|----------------------------------------|----------------------------------------------------------------------------|
+| **Containerisation & Migration Logic** | Setting up Docker/Kubernetes, handling data migration between environments |
+| **Gateway Logic**                      | Building API gateways to route and manage traffic between services         |
+| **Proxy/WAF Logic**                    | Writing security proxies and Web Application Firewall rules                |
+| **Event Streaming Logic**              | Implementing pub/sub or event-driven messaging (e.g. Kafka)                |
+| **CI/CD**                              | Setting up pipelines for automated testing and deployment                  |
+| **Error Handling Logic**               | Defining how the system responds to failures and exceptions                |
+| **User Management**                    | Building user auth, roles, and permissions from the ground up              |
+| **Monitoring Logic**                   | Instrumenting the system to track health and performance                   |
+| **Logging Logic**                      | Capturing logs across all services for debugging and auditing              |
+| **Authentication Logic**               | Implementing OAuth, JWT, SSO, or other auth mechanisms                     |
+| **Data Transformation & Connectivity** | Writing adapters to convert and move data between different formats/systems|
+| **Audit Logic**                        | Tracking who did what and when across the system                           |
+| **Scalability Logic**                  | Designing the system to handle growing load (caching, load balancing, etc.)|
+| **Security Logic**                     | Enforcing encryption, access control, and compliance rules                 |
+| **Controller Logic**                   | Orchestrating workflows and controlling the flow of data                   |
+| **Data Validation Logic**              | Verifying that incoming/outgoing data meets expected formats and rules     |
+| **Messaging Logic**                    | Building queues and message brokers for async communication                |
+| **Mediation Logic**                    | Translating and routing messages between incompatible systems              |
+| **Integration Patterns Logic**         | Manually implementing patterns like aggregator, splitter, router, etc.     |
+
+- All of this adds up to a **very long development timeline** — shown by the tall red/orange arrow in the diagram(ATD).
+### Modern Approach — Via Fiorano
+- With Fiorano, the developer still gathers functional requirements, but then **leverages the Fiorano platform** instead of building everything manually. All the layers above (containerisation, gateway, security, messaging, etc.) are **already built into the product**.
+- This means:
+1. **Pre-built connectors** — No need to start from zero; many integrations are already available
+2. **Low-code tools** — Design integrations visually instead of writing heavy code
+3. **Reusable components** — Build once, use many times
+4. **Real-time (event-driven) processing** — No waiting for batch jobs; data moves instantly
+- The result is a **dramatically shorter development time** — shown by the small green arrow on the Fiorano side of the diagram.
+
+## 2. Ease of Implementation
+## 3. Hybrid Integration
+## 4. Operational Efficiency
+## 5. ROI Through Reusability
