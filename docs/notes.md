@@ -1,9 +1,9 @@
-**Introduction to Fiorano Intergaration Platform**
+# **Introduction to Fiorano Intergaration Platform**
 
 ![DeploymentTopology](/screenshots/DT.png)
 
-**Pain Points In Adopting Entreprise Intergration**
-# **Organizations often face several challenges when implementing enterprise integration solutions:**
+## **Pain Points In Adopting Entreprise Intergration**
+### **Organizations often face several challenges when implementing enterprise integration solutions:**
 1. Managing Complex Integrations: Integrating multiple systems, applications, and data sources across an organization can be technically complex and difficult to maintain.
 2. Meeting Time-to-Market Demands: Businesses must deliver products and services quickly to remain competitive, making rapid integration and deployment critical.
 
@@ -17,14 +17,13 @@
 
 ![entreprise intergarion](/screenshots/EI.png)
 
-# **Benefits of Streamlining Enterprise Intergration with Fiorano**
-## **1. Accelerated Time for Development**
+## **Benefits of Streamlining Enterprise Intergration with Fiorano**
 - Fiorano helps you build and deploy systems much faster than traditional methods.
 ![ATD](/screenshots/ATD.png)
-# Benefits of Streamlining Enterprise Integration with Fiorano
-## 1. Accelerated Time for Development
+
+### 1. Accelerated Time for Development
 - There are **two approaches** to building an integration project: **traditional** and **modern**.
-### Traditional Approach — Custom Method
+#### Traditional Approach — Custom Method
 - With the custom method, developers must gather functional requirements and then **build all logic from scratch**. This means individually coding and maintaining every layer of the system, including:
 
 | Layer                                  | What it involves                                                           |
@@ -50,7 +49,7 @@
 | **Integration Patterns Logic**         | Manually implementing patterns like aggregator, splitter, router, etc.     |
 
 - All of this adds up to a **very long development timeline** — shown by the tall red/orange arrow in the diagram(ATD).
-### Modern Approach — Via Fiorano
+#### Modern Approach — Via Fiorano
 - With Fiorano, the developer still gathers functional requirements, but then **leverages the Fiorano platform** instead of building everything manually. All the layers above (containerisation, gateway, security, messaging, etc.) are **already built into the product**.
 - This means:
 1. **Pre-built connectors** — No need to start from zero; many integrations are already available
@@ -60,6 +59,8 @@
 - The result is a **dramatically shorter development time** — shown by the small green arrow on the Fiorano side of the diagram.
 
 ## 2. Ease of Implementation
+![EOI](/screenshots/EOI.png)
+
 ## 3. Hybrid Integration
 ## 4. Operational Efficiency
 ## 5. ROI Through Reusability
