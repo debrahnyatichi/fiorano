@@ -17,17 +17,17 @@
 
 ![entreprise intergarion](/screenshots/EI.png)
 
-**Benefits of Streamlining Enterprise Intergration with Fiorano**
+# **Benefits of Streamlining Enterprise Intergration with Fiorano**
 # **1. Accelerated Time for Development**
 
 ![ATD](/screenshots/ATD.png)
 - There are 2 approaches to build an intergration project **(traditional and modern)** 
 - As in the image above:
-**Custom development method -  traditional**
+* **Custom development method -  traditional**
 - Developers must build everything from scratch.
 - It takes a longer time to develop: 
 - More complexity = more delays, more testing, more risk.
-**Fiorano development - modern**
+* **Fiorano development - modern**
 
 **2. Ease of Implementation**
 **3. Hybrid Integration**
